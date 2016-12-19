@@ -35,7 +35,7 @@ $('.navbar-collapse ul li a').click(function() {
 
 $('#clock').countdown('2017/06/24 17:00:00').on('update.countdown', function(event) {
     var $this = $(this).html(event.strftime(''
-    + '<div><span>%-w</span>week%!w</div>'
+    + '<div><span>%-m</span>month%!m</div>'
     + '<div><span>%-d</span>day%!d</div>'
     + '<div><span>%H</span>hr</div>'
     + '<div><span>%M</span>min</div>'
