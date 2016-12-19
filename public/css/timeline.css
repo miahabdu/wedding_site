@@ -203,6 +203,8 @@ Modules - reusable parts of our design
   clear: both;
 }
 .cd-timeline-content h2 {
+  font-family: 'Josefin Slab', serif;
+  font-weight: 700;
   color: #303e49;
 }
 .cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
@@ -244,11 +246,11 @@ Modules - reusable parts of our design
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 1.45rem;
   }
   .cd-timeline-content p {
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 18px;
+    font-size: 1.2rem;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
@@ -275,8 +277,8 @@ Modules - reusable parts of our design
     width: 100%;
     left: 122%;
     top: 6px;
-    font-size: 16px;
-    font-size: 1rem;
+    font-size: 18px;
+    font-size: 1.2rem;
     text-align: left;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {

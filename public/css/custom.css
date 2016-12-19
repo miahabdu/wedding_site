@@ -1,10 +1,17 @@
+@font-face {
+    font-family: 'bromello';
+    font-style: normal;
+    font-weight: normal;
+    src: local('bromello'), url('../fonts/bromello.woff') format('woff');
+}
+
 html, body {
     width: 100%!important;
     height: 100%!important;
 }
 
 body {
-    font-family: "Open Sans", Arial, sans-serif;
+    font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #313B45;
@@ -83,21 +90,25 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0 0 35px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     letter-spacing: 1px;
     line-height: 1.6;
 }
 
+h2 {
+    font-family: 'bromello';
+}
+
 p {
     margin: 0 0 25px;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 1.5;
 }
 
 @media(min-width:768px) {
     p {
         margin: 0 0 35px;
-        font-size: 16px;
+        font-size: 18px;
         line-height: 1.7;
     }
 }
@@ -287,7 +298,7 @@ a.fa {
     outline: 0;
 }
 .navbar-custom .nav li.active a {
-    color: #FFFEAF;
+    color: #ffd0d7;
 }
 .navbar-custom .nav li.active a:hover {
     color: #fff;
@@ -466,6 +477,7 @@ a.fa {
     background: #eee;
 }
 #about2 {
+    font-family: 'Josefin Slab', serif;
     background: rgba(0, 0, 0, 0.5);
     color: #FFF;
 }
