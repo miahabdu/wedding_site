@@ -30,7 +30,7 @@ function init() {
   // Create the Google Map using out element and options defined above
   var map = new google.maps.Map(mapElement, mapOptions);
 
-  var ceremonyString = '<div id="content">'+
+  var ceremonyString = '<div id="content" style="text-align:left;">'+
     '<h4 id="firstHeading" class="firstHeading" style="margin-bottom: 5px;">MSU Horticulture Gardens</h4>'+
     '<div class="row">'+
     '<div class="col-lg-7">'+
@@ -47,7 +47,7 @@ function init() {
     content: ceremonyString
   });
 
-  var receptionString = '<div id="content">'+
+  var receptionString = '<div id="content" style="text-align:left;">'+
     '<h4 id="firstHeading" class="firstHeading" style="margin-bottom: 5px;">Eagle Eye Banquet Center</h4>'+
     '<div class="row">'+
     '<div class="col-lg-7">'+
@@ -62,6 +62,23 @@ function init() {
 
   var reception_infowindow = new google.maps.InfoWindow({
     content: receptionString
+  });
+
+  var hotelString = '<div id="content" style="text-align:left;">'+
+    '<h4 id="firstHeading" class="firstHeading" style="margin-bottom: 5px;">Fairfield Inn & Suites</h4>'+
+    '<div class="row">'+
+    '<div class="col-lg-7">'+
+    '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-map-marker"></i> 3320 Preyde Blvd, Lansing, MI 48912</p>'+
+    '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-globe"></i> <a href="http://www.marriott.com">marriott.com</a></p>'+
+    '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-phone"></i> (517) 374-6500</p>'+
+    '</div>'+
+    '<div class="col-lg-5">'+
+    '<p style="margin-right: 20px;font-size: 12px;"><img src="img/fairfield.jpg" class="img-responsive" width=175></p>'+
+    '</div>'+
+    '</div>';
+
+  var hotel_infowindow = new google.maps.InfoWindow({
+    content: hotelString
   });
 
   var image = 'img/map-marker.png';
@@ -85,5 +102,16 @@ function init() {
 
   receptionMarker.addListener('click', function() {
     reception_infowindow.open(map, receptionMarker);
+  });
+
+  var hotelMarker = new MarkerWithLabel({
+    position: new google.maps.LatLng(42.763906,-84.513386),
+    map: map,
+    labelContent: 'Hotel',
+    labelClass: 'label'
+  });
+
+  hotelMarker.addListener('click', function() {
+    hotel_infowindow.open(map, hotelMarker);
   });
 }

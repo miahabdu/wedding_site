@@ -194,7 +194,7 @@ Modules - reusable parts of our design
   margin-left: 60px;
   background: white;
   border-radius: 0.25em;
-  padding: 1em;
+  /*padding: 1em;*/
   box-shadow: 0 3px 0 #d7e4ed;
 }
 .cd-timeline-content:after {
@@ -251,6 +251,7 @@ Modules - reusable parts of our design
   .cd-timeline-content p {
     font-size: 18px;
     font-size: 1.2rem;
+    margin-top: 0;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
@@ -260,7 +261,7 @@ Modules - reusable parts of our design
 @media only screen and (min-width: 1170px) {
   .cd-timeline-content {
     margin-left: 0;
-    padding: 1.6em;
+    /*padding: 1.6em;*/
     width: 45%;
   }
   .cd-timeline-content::before {
