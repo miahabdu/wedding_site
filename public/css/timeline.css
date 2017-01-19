@@ -32,7 +32,7 @@ Modules - reusable parts of our design
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #eee;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -109,7 +109,7 @@ Modules - reusable parts of our design
   background: #c03b44;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #F5CCC7;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -195,7 +195,7 @@ Modules - reusable parts of our design
   background: white;
   border-radius: 0.25em;
   /*padding: 1em;*/
-  box-shadow: 0 3px 0 #d7e4ed;
+  box-shadow: 0 3px 0 #eee;
 }
 .cd-timeline-content:after {
   content: "";
@@ -249,8 +249,8 @@ Modules - reusable parts of our design
     font-size: 1.45rem;
   }
   .cd-timeline-content p {
-    font-size: 18px;
-    font-size: 1.2rem;
+    font-size: 20px;
+    font-size: 1.35rem;
     margin-top: 0;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
