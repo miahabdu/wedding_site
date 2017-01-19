@@ -457,14 +457,14 @@ a.fa {
 }
 
 .action  { background-color: #fff; }
-.action2 { background-color: #1b1f23; }
+.action2 { background-color: rgba(255,255,255,0.95); }
 .action3 { background: rgba(0, 0, 0, 0.5); }
 
 .action2,
 .action2 a,
 .action3,
 .action3 a {
-    color: #fff;
+    color: #000;
 }
 
 .action2 a:hover,
@@ -474,7 +474,7 @@ a.fa {
 
 
 #about {
-    background: #eee;
+    background: #f7f7f7;
 }
 #about2 {
     font-family: 'Josefin Slab', serif;
