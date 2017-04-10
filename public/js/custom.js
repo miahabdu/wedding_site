@@ -33,10 +33,10 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
-$('#clock').countdown('2017/06/24 17:00:00').on('update.countdown', function(event) {
+$('#clock').countdown('06/24/2017 16:30:00').on('update.countdown', function(event) {
     var $this = $(this).html(event.strftime(''
     + '<div><span>%-m</span>month%!m</div>'
-    + '<div><span>%-d</span>day%!d</div>'
+    + '<div><span>%-n</span>day%!n</div>'
     + '<div><span>%H</span>hr</div>'
     + '<div><span>%M</span>min</div>'
     + '<div><span>%S</span>sec</div>'));
