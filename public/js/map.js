@@ -34,7 +34,7 @@ function init() {
     '<h4 id="firstHeading" class="firstHeading" style="margin-bottom: 5px;">MSU Horticulture Gardens</h4>'+
     '<div class="row">'+
     '<div class="col-lg-7">'+
-    '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-map-marker"></i> 1066 Bogue St, East Lansing, MI 48824</p>'+
+    '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-map-marker"></i> 612 Wilson Rd, East Lansing, MI 48824</p>'+
     '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-globe"></i> <a href="https://hrt.msu.edu">hrt.msu.edu</a></p>'+
     '<p style="margin-bottom: 5px;font-size: 12px;"><i class="fa fa-phone"></i> (517) 355-5191</p>'+
     '</div>'+
